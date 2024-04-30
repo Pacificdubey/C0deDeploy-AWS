@@ -1,3 +1,4 @@
 #!/bin/bash
 cd /var/www/myapp/
-nohup python3 app.py &
+ls -la 
+python3 app.py > /var/www/myapp/myapp.log 2>&1 &
